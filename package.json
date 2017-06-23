@@ -1,0 +1,28 @@
+{
+  "name": "fastify-shot",
+  "version": "0.1.0",
+  "description": "Shot integration in fastify",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allevo/fastify-shot.git"
+  },
+  "author": "Tommaso Allevi <tomallevi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allevo/fastify-shot/issues"
+  },
+  "homepage": "https://github.com/allevo/fastify-shot#readme",
+  "dependencies": {
+    "fastify-plugin": "^0.1.0",
+    "shot": "^3.4.2"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2",
+    "tap": "^10.5.2"
+  }
+}
